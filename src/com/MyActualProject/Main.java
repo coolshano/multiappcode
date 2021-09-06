@@ -9,6 +9,9 @@ public class Main {
         var enter = new HelloWorld();
         var myDiary = new DearDiary();
 
+        myDiary.helloDiary();
+
+        /*
         Scanner selectProgram = new Scanner(System.in);
         System.out.print("Please type option: 1 for Diary / 2 for PhoneBook: ");
 
@@ -19,7 +22,8 @@ public class Main {
                     enter.helloWorld();
                     break;
                 case 2:
-                    myDiary.helloDiary();
+                    //myDiary.helloDiary();
+                    System.out.println("Temp");
                     break;
                 default:
                     System.out.println("Invalid Selection!");
@@ -29,6 +33,8 @@ public class Main {
         }catch (Exception e){
             System.out.println("Cannot accept alphebetic characters!");
         }
+
+         */
 
     }
 }
